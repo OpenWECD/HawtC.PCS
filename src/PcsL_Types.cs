@@ -4,7 +4,7 @@
 //LICENSING
 // Copyright(C) 2021, 2025  TG Team,Key Laboratory of Jiangsu province High-Tech design of wind turbine,WTG,WL,赵子祯
 //
-//    This file is part of OpenWECD.AeroL
+//    This file is part of OpenWECD.PCS
 //
 // Licensed under the Boost Software License - Version 1.0 - August 17th, 2003
 // you may not use this file except in compliance with the License.
@@ -23,16 +23,8 @@
 //**********************************************************************************************************************************
 
 using MathNet.Numerics.LinearAlgebra;
-using OpenWECD.IO.Interface1;
-using OpenWECD.IO.IO;
-using OpenWECD.IO.Log;
-using OpenWECD.IO.math;
 using SourceGeneration.Reflection;
-using System;
-using System.Diagnostics;
-using System.Linq;
-using System.Runtime.InteropServices;
-using static OpenWECD.IO.math.LinearAlgebraHelper;
+
 namespace OpenWECD.PreComp
 {
     /// <summary>
